@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  font-family: Arial, sans-serif;
+}
+
+.player {
+  width: 280px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.cover {
+  width: 150px;
+  height: 150px;
+  background: #ccc;
+  border-radius: 15px;
+  margin: 0 auto 15px;
+}
+
+.player h2 {
+  margin: 5px 0;
+}
+
+.player p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+audio {
+  width: 100%;
+}
+
